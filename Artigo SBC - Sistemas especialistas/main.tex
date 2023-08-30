@@ -1,0 +1,96 @@
+\documentclass[12pt]{article}
+
+\usepackage{sbc-template} 
+\usepackage{graphicx,url}
+\usepackage{url}
+\usepackage[brazil]{babel} 
+\usepackage[utf8]{inputenc} 
+\usepackage[T1]{fontenc}
+\usepackage[normalem]{ulem}
+\usepackage[hidelinks]{hyperref}
+
+\usepackage[square,authoryear]{natbib}
+%\usepackage{amssymb} 
+%\usepackage{mathalfa} 
+%\usepackage{algorithm} 
+%\usepackage{algpseudocode} 
+%\usepackage[table]{xcolor}
+%\usepackage{array}
+\usepackage{titlesec}
+%\usepackage{mdframed}
+%\usepackage{listings}
+
+%\usepackage{amsmath} 
+%\usepackage{booktabs}
+
+\urlstyle{same}
+
+%\newcolumntype{L}[1]{>%{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+%\newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+%\newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+
+%\newcommand\Tstrut{\rule{0pt}{2.6ex}} 
+%\newcommand\Bstrut{\rule[-0.9ex]{0pt}{0pt}} 
+%\newcommand{\scell}[2][c]{\begin{tabular}[#1]{@{}c@{}}#2\end{tabular}}
+
+\usepackage[nolist,nohyperlinks]{acronym}
+
+\title{Sistemas Especialistas}
+
+\author{Autores: Matheus Mello e Jorge Harbes\inst{1}}
+
+
+\address{Centro Federal de Educação Tecnológica Celso Suckow da Fonseca - CEFET/RJ
+\email{jharbes@hotmail.com}
+\email{matheusmello142012@gmail.com}
+}
+
+
+\begin{document} 
+	
+	\maketitle
+	
+	\begin{resumo} 
+		Este artigo tem o propósito de reunir informações sobre as experiências e conhecimentos absorvidos nas aulas de sistemas especialistas, lecionada pelo professor \href{https://turing.pro.br/kadupantoja/}{Carlos Eduardo Pantoja}.
+	\end{resumo}
+	
+	\section{Introdução}
+	\label{sec:introducao}
+		
+    Nesta disciplina aprendemos um pouco mais sobre agentes, sistemas multiagentes, agentes cognitivos baseados em BDI e programação baseada em estímulos. O conteúdo é vasto, e as possibilidades, exponenciais. Como, por exemplo, um novo modelo de comunicação entre drones, abrindo novas possibilidades para esta tecnologia que hoje já se tornou um mercado.
+    
+    Utilizamos a IDE \href{https://github.com/chon-group/chonIDE}{ChonIDE}, desenvolvida pelos nossos próprios colaboradores.
+	
+	\section{O que é um agente ?}
+	\label{sec:agente}
+	
+	Um agente é uma entidade autônoma e computacional que pode perceber seu ambiente, tomar decisões, agir e interagir com outros agentes para alcançar um ou mais objetivos. Normalmente é programado para que, diante de determinada análise, tome decisões baseado em conhecimentos preestabelecidos ou adquiridos. É o protagonista de todo o enredo de sistema multiagente.
+	
+	\section{Sistema MultiAgente}
+	\label{sec:sis_multiagente}
+
+    Um sistema multiagente é composto por vários agentes que interagem entre si para atingir objetivos individuais ou coletivos. Estes agentes podem ser tanto cooperativos quanto competitivos, dependendo da natureza do sistema e dos objetivos a serem alcançados. Cada agente em um sistema multiagente possui a capacidade de operar de forma independente, mas a interação entre os agentes é crucial para o funcionamento eficaz do sistema como um todo.
+	
+	\section{Agentes cognitivos em BDI}
+	\label{sec:agentes_cog}
+
+    BDI é uma abreviação de "Belief-Desire-Intention". É um modelo de arquitetura de agentes que é baseado nos conceitos de crenças (beliefs), desejos (desires) e intenções (intentions) de um agente.
+    \begin{itemize}
+    \item Crenças (Beliefs): São as informações que o agente possui sobre o mundo ao seu redor.
+    \item Desejos (Desires): São os objetivos que o agente deseja alcançar.
+    \item Intenções (Intentions): São os planos de ação que o agente decide executar para alcançar seus desejos.
+    \end{itemize}
+    
+\begin{thebibliography}{9}
+\bibitem{wooldridge}
+M. Wooldridge,
+\textit{An Introduction to MultiAgent Systems},
+John Wiley \& Sons, 2009.
+
+\bibitem{bratman}
+M. E. Bratman,
+\textit{Intentions, Plans, and Practical Reason},
+Harvard University Press, 1987.
+\end{thebibliography}
+
+\end{document}
