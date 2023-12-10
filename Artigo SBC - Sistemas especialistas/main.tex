@@ -90,6 +90,63 @@
 	\label{sec:sis_multiagente}
 
     Jason é uma implementação do interpretador AgentSpeak, uma linguagem orientada a agentes baseada em lógica, facilitando a criação de agentes inteligentes dentro de sistemas multiagentes (MAS). Influenciada pelo Prolog, essa ferramenta é particularmente adequada para desenvolver agentes seguindo o modelo BDI (Belief-Desire-Intention), onde os agentes possuem crenças sobre o mundo, desejos ou objetivos a serem alcançados, e intenções ou planos para alcançar esses desejos. Jason proporciona um ambiente de desenvolvimento que assiste na codificação, depuração e teste de agentes, e quando integrado aos frameworks CArtAgO e MOISE através da plataforma JaCaMo, oferece uma solução robusta para desenvolver e organizar sistemas multiagentes complexos.
+
+
+    \vspace{10mm} 
+    \begin{center} 
+    \Large 
+    \textbf{Experiência Realizada} 
+    \end{center} 
+
+    \setcounter{section}{0}
+    \section{Objetivo}
+
+    O objetivo deste projeto é desenvolver um chatbot de nível básico a intermediário, que incorpora os conceitos e técnicas aprendidos na disciplina de Sistemas Especialistas. O foco será em aplicar os fundamentos de linguagens de programação e agentes inteligentes, conforme discutido nas seções anteriores do documento. Especificamente, vamos explorar a implementação de Agentes Cognitivos baseados no modelo BDI (Belief-Desire-Intention), mas em um contexto mais simplificado e direto. O uso de sistemas multiagentes ajudará a estruturar o chatbot de forma que ele possa operar eficientemente, embora em um ambiente menos complexo do que os sistemas avançados. A linguagem AgentSpeak será adotada para a programação dos agentes, e a plataforma Jason será utilizada para gerenciar a integração destes agentes no chatbot. O propósito é criar um chatbot funcional que possa executar tarefas básicas de interação e fornecer assistência informativa, servindo como uma ferramenta útil e educativa, especialmente para quem está começando a explorar o campo de sistemas multiagentes e agentes inteligentes.
+
+
+    \section{Metodologia}
+
+    A metodologia para o desenvolvimento do chatbot é fundamentada nos princípios e técnicas discutidos nas seções anteriores, envolvendo uma abordagem sistemática e faseada. O processo será dividido em várias etapas principais:
+
+    \begin{enumerate}
+    \item \textbf{Planejamento e Design:} Esta fase envolve a definição clara dos objetivos do chatbot, o escopo de suas funcionalidades e a estruturação básica de como os agentes interagirão no sistema. Será desenvolvido um design conceitual do chatbot, incluindo um diagrama de como os agentes BDI irão operar e interagir dentro do sistema.
+
+        \item \textbf{Desenvolvimento dos Agentes:} Utilizando a linguagem AgentSpeak, programaremos os agentes com capacidades específicas de percepção, raciocínio e ação. Cada agente será desenhado para realizar funções específicas dentro do chatbot, seguindo o modelo BDI, onde suas crenças, desejos e intenções guiarão seu comportamento.
+
+        \item \textbf{Integração e Testes:} Os agentes desenvolvidos serão integrados em um ambiente de sistema multiagente, usando a plataforma Jason. Esta etapa envolve a coordenação e comunicação entre os agentes, assegurando que eles funcionem harmoniosamente. Testes iterativos serão realizados para identificar e corrigir problemas de interação e funcionalidade.
+
+        \item \textbf{Interface de Usuário:} Desenvolvimento de uma interface de usuário amigável para permitir a interação efetiva entre o usuário e o chatbot. Esta interface será projetada para ser intuitiva, garantindo que os usuários possam se engajar facilmente com o chatbot.
+
+        \item \textbf{Avaliação e Iteração:} Após a implementação, o chatbot será submetido a uma série de avaliações para testar sua eficácia, usabilidade e precisão nas respostas. Com base no feedback recebido, faremos as iterações necessárias para melhorar e refinar o chatbot.
+
+    \end{enumerate}
+
+    Essa abordagem metodológica garantirá que todos os aspectos do chatbot sejam cuidadosamente considerados e desenvolvidos, resultando em uma ferramenta interativa e eficaz que alinha os conceitos teóricos com a aplicação prática.
+
+
+
+    \section{Implementação}
+
+    A implementação do chatbot baseia-se nos princípios de sistemas multiagentes e na arquitetura BDI (Belief-Desire-Intention), utilizando a linguagem AgentSpeak e a plataforma Jason. O processo de implementação segue as seguintes etapas:
+
+    \begin{enumerate}
+        \item \textbf{Configuração do Ambiente de Desenvolvimento:} Inicialmente, configuramos o ambiente de desenvolvimento integrando a IDE (como ChonIDE ou similar) com a plataforma Jason. Isso nos permite desenvolver e testar os agentes em um ambiente controlado.
+
+        \item \textbf{Criação dos Agentes BDI:} Cada agente é criado com um conjunto específico de crenças (beliefs), desejos (desires) e intenções (intentions). As crenças representam o conhecimento do agente sobre o mundo e o estado do chatbot, os desejos indicam os objetivos que o agente busca alcançar, e as intenções são os planos que o agente executa para satisfazer seus desejos.
+
+        \item \textbf{Programação em AgentSpeak:} Utilizando AgentSpeak, programamos os comportamentos e as interações dos agentes. Isso inclui a capacidade de processar entradas do usuário, realizar raciocínio lógico, e responder apropriadamente. Os agentes são programados para serem autônomos, mas também capazes de comunicar-se e colaborar quando necessário.
+
+        \item \textbf{Integração dos Agentes:} Os agentes são integrados em um sistema multiagente coordenado. Eles interagem entre si para compartilhar informações, tomar decisões e fornecer respostas coesas ao usuário. Esta etapa envolve a sincronização das ações dos agentes e a gestão de seus estados e interações.
+
+        \item \textbf{Desenvolvimento da Interface de Usuário:} Paralelamente à programação dos agentes, desenvolvemos uma interface de usuário interativa. Esta interface é projetada para ser simples e intuitiva, permitindo aos usuários interagir naturalmente com o chatbot. A interface é conectada ao sistema de agentes para que as entradas do usuário sejam processadas e as respostas sejam exibidas.
+
+        \item \textbf{Testes e Ajustes:} Após a implementação inicial, realizamos uma série de testes para avaliar o desempenho do chatbot. Isso inclui testar a precisão das respostas, a eficiência da comunicação entre agentes e a usabilidade da interface. Com base nos resultados dos testes, fazemos os ajustes necessários para melhorar a funcionalidade e a experiência do usuário.
+
+    \end{enumerate}
+
+    Através dessa abordagem de implementação, buscamos criar um chatbot que não apenas responda às perguntas dos usuários, mas também ofereça uma experiência interativa e enriquecedora, demonstrando os conceitos aprendidos na disciplina de Sistemas Especialistas.
+
+    
     
 \begin{thebibliography}{9}
 \bibitem{wooldridge}
